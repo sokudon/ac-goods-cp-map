@@ -1,4 +1,4 @@
-
+id, data-fdesc, data-name, data-address, data-access, data-telno, data-operationtime, data-holiday, data-latitude data-longitude
 "id_shop_001814da990cf07b5dcbe7d5135a5cad","001814da990cf07b5dcbe7d5135a5cad","東京レジャーランド秋葉原2号店","千代田区外神田4-3-3","JR秋葉原駅より徒歩5分","03-5209-5650","10:00～25:00","無し","35.70073433 139.7718424"
 "id_shop_00e4486d71372efd62a2a806e7e119c0","00e4486d71372efd62a2a806e7e119c0","楽市楽座 福重店","福岡市西区石丸4-263-1","202号線沿い拾六町IC、石丸ICそば","092-885-7380","10:00～24:00","無し",""
 "id_shop_00f4cb833487484edafae72b2cb0c22d","00f4cb833487484edafae72b2cb0c22d","群馬レジャーランド藤岡店","藤岡市中2002-1","県道13号沿い、上信越道藤岡IC北 カーオプション店『ピット100』2階","0274-40-2371","一部24時間営業","","36.27426745 139.0718857"
