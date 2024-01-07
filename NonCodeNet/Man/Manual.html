@@ -1,0 +1,140 @@
+<html>
+
+<head>
+<title>NonSoft - 文字コード判定＆変換ツール.NET(マニュアル)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<meta name="keywords" content="文字コード判定,文字コード変換,フォルダ丸ごと,フォルダ一括,サブフォルダ,コマンドライン,送るメニュー">
+<meta name="description" content="(マニュアル)ファイルまたはフォルダを指定して文字コードを変換するツールです。サブフォルダも変換対象する事が可能です。コマンドラインやファイルのマウス右クリックで送る事が可能です。">
+<meta name="robots" content="index,follow">
+<style type="Text/Css">
+<!--
+li.oItem { color: #000000; cursor: text; font-size: 11pt; } ;
+ul ul { display: none; font-size: 11pt; } ;
+A{
+	Color:#FFFFFF;
+	text-decoration: underline;
+}
+A:hover{
+	Color:#FF0000;
+	text-decoration: underline;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#4444FF" text="#FFFFFF">
+<center>
+<table>
+<tr><td>
+	<center>
+	<h1>文字コード判定＆変換ツール.NET</h1>
+	<h3>SJIS/JIS/EUC/UNICODE/UTF-7/UTF-8対応。File/Folder(SubFolder)可。コマンドライン/送るメニュー可。</h3>
+	</center>
+</td></tr>
+<tr><td>
+１．概要<br>
+本プログラムはファイルまたはフォルダを指定して文字コードを変換するツールです。サブフォルダも変換対象にする事が可能です。<br>
+コマンドラインでの実行やファイルやフォルダをマウス右クリックして送るメニュー(SendTo)から実行する事が可能です。<br>
+対応文字コードは、ＳＪＩＳ、ＪＩＳ、ＥＵＣ、ＵＮＩＣＯＤＥ(ＵＴＦ－１６)、ＵＴＦ－７、ＵＴＦ－８です。<br>
+<br>
+２．操作方法<br>
+　　<img src="main.jpg" alt="文字コード判定＆変換ツール.NET(画面イメージ)"><br>
+<br>
+　（０）ご使用前に変換前のファイルまたはフォルダをバックアップをしてください。<br>
+<br>
+　（１）入力文字コード<br>
+　　　　入力ファイルの文字コードを指定します。自動判定する事が出来ます。<br>
+<br>
+　（２）入力ファイル参照<br>
+　　　　入力ファイルをファイルダイアログから選択します。エクスプローラからドラック＆ドロップする事も出来ます。<br>
+　　　　入力文字コードが自動判定の場合は入力ファイルの文字コードをこの時点で判定します。<br>
+　　　　また、入力ファイルの改行コードやＢＯＭ有無をこの時点で判定します。<br>
+　　　　デフォルトの出力ファイルを入力ファイルと同じに自動設定します。<br>
+<br>
+　（３）入力フォルダ参照<br>
+　　　　入力フォルダをフォルダダイアログから選択します。エクスプローラからドラック＆ドロップする事も出来ます。<br>
+　　　　デフォルトの出力フォルダを入力フォルダと同じに自動設定します。<br>
+<br>
+　（４）出力ファイル参照<br>
+　　　　デフォルトの出力ファイルを変更する場合はファイルダイアログから選択します。直接キーボードから入力する事も出来ます。<br>
+<br>
+　（５）出力フォルダ参照<br>
+　　　　デフォルトの出力フォルダを変更する場合はフォルダダイアログから選択します。直接キーボードから入力する事も出来ます。<br>
+<br>
+　（６）出力文字コード<br>
+　　　　出力するファイルの文字コードを指定します。<br>
+<br>
+　（７）出力改行コード<br>
+　　　　出力するファイルの改行コードを指定します。<br>
+<br>
+　（８）出力ＢＯＭ有無<br>
+　　　　出力するファイルにＢＯＭを付加するかどうかを指定します。<br>
+<br>
+　（９）対象拡張子<br>
+　　　　フォルダ単位で文字コード変換する場合に、変換対象となる拡張子を指定します。<br>
+<br>
+　（10）サブフォルダを対象とするかどうか<br>
+　　　　フォルダ単位で文字コード変換する場合に、サブフォルダを変換対象とするかどうかを指定します。<br>
+　　　　サブフォルダを変換対象とすると、指定フォルダ以下の全てのファイル(対象拡張子のファイル)が変換対象になります。<br>
+<br>
+　（11）「ツール」メニューの「現在の設定でコマンドライン作成．．．」<br>
+　　　　指定内容でバッチファイルに記述するコマンドライン文字列を作成し表示します。<br>
+	<pre>　　　　＜コマンドラインの指定方法＞
+　　　　NonCodeNet.exe　[入力ファイルまたはフォルダPATH]　[変換条件]
+　　　　[変換条件]は省略可能です。
+　　　　[-BAT]　　　　　　　：画面を表示しないで実行               (省略時：画面表示)
+　　　　[-OFL出力PATH]　　　：出力ファイル／フォルダPATH　　       (省略時：入力と同じ)
+　　　　[-ICD入力文字コード]：SJIS,JIS,EUC,UNICODE,UTF7,UTF8       (省略時：自動判定)
+　　　　[-OCD出力文字コード]：SJIS,JIS,EUC,UNICODE,UTF7,UTF8       (省略時：SJIS)
+　　　　[-CRLF]　　　　　 　：出力ファイルの改行コード(CRLF)       (省略時：CRLF)
+　　　　[-CR]　　　　　　 　：出力ファイルの改行コード(CR)         (省略時：CRLF)
+　　　　[-LF]　　　　　　 　：出力ファイルの改行コード(LF)         (省略時：CRLF)
+　　　　[-BOM]　　　　　　　：出力ファイルにBOMを付加する          (省略時：BOM無)
+　　　　[-EXT拡張子]　　　　：変換対象の拡張子をカンマ区切りで指定 (省略時：*)
+　　　　[-SUB]　　　　    　：サブフォルダを変換対象にする         (省略時：対象外)
+　　　　(例)フォルダ指定(UTF7→UNICODE変換、改行=CRLF、BOM有、拡張子=a,b,c、サブフォルダ対象)
+　　　　NonCodeNet.exe D:\Temp -BAT -OFLD:\Temp -ICDUTF7 -OCDUNICODE -CRLF -BOM -EXTa,b,c -SUB</pre>
+　（12）「ツール」メニューの「ショートカットを「送る」メニューに作成」<br>
+　　　　「送る」メニューに画面表示モードのショートカットを作成します。<br>
+　　　　ファイルやフォルダをマウス右クリックして送るメニューから実行する事が可能になります。<br>
+　　　　ショートカットの引数を「コマンドラインの指定方法」に従って[変換条件]を追加する事が出来ます。<br>
+　　　　この機能でショートカットの作成が出来ない場合は、手動でSendToにショートカットを作成する事が出来ます。<br>
+　　　　SendToの絶対PATHは、XPの場合は「C:\Documents and Settings\[ユーザ名]\SendTo」です。<br>
+<br>
+３．インストール／アンインストール方法<br>
+本プログラムはインストール操作が必要ありません。<br>
+本プログラム一式（ＺＩＰファイル）を解凍後、NonCodeNet.exe を実行するだけでするだけでご使用頂けます。<br>
+アンインストール操作も必要ありませんので、本プログラム一式を削除して頂くだけで完了です。<br>
+<br>
+(注意)<br>
+Microsoft .NET Framework Version 2.0以上がインストールされている必要があります。（既にインストール済の可能性大）<br>
+インストールされていない場合は「Microsoft .NET Framework Version 2.0 ダウンロード」でネット検索してインストールしてください。<br>
+<br>
+４．著作権<br>
+本プログラムの全ての著作権は「のん」が所有しています。<br>
+本プログラム一式を転載する場合は著作権所有者の許可が必要となります。<br>
+(NonSoftの紹介リンクは問題ありませんので宜しくお願いします)<br>
+また、著作権所有者が許可したサイトでのみダウンロードが可能となります。<br>
+商用利用についての制限はありません。<br>
+<br>
+５．ライセンス<br>
+本プログラムはフリーライセンス(寄付歓迎)です。<br>
+本プログラムに良い評価を頂ける場合は、寄付やホームページで紹介等して頂けると嬉しいです。<br>
+寄付はこちらでお願いします。<a href="http://homepage2.nifty.com/nonnon/kifu.html">http://homepage2.nifty.com/nonnon/kifu.html</a><br>
+<br>
+６．免責事項<br>
+本プログラムが原因による損害・問題に対し一切の責任を負えません。ご利用者の責任の範囲内でお使いください。<br>
+<br>
+７．最新版の確認先<br>
+<a href="http://www.google.com/search?q=NonSoft+-+%E6%96%87%E5%AD%97%E3%82%B3%E3%83%BC%E3%83%89%E5%88%A4%E5%AE%9A%EF%BC%86%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB.NET&rls=com.microsoft:ja:IE-SearchBox&ie=UTF-8&oe=UTF-8&sourceid=ie7&rlz=1I7GGIH_ja">文字コード判定＆変換ツール.NET</a>&nbsp;の最新版を検索(Google)<br>
+<a href="http://search.yahoo.co.jp/search?&p=NonSoft+-+%E6%96%87%E5%AD%97%E3%82%B3%E3%83%BC%E3%83%89%E5%88%A4%E5%AE%9A%EF%BC%86%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB.NET&fr=msie7&ei=utf-8">文字コード判定＆変換ツール.NET</a>&nbsp;の最新版を検索(Yahoo)<br>
+<a href="http://www.bing.com/search?q=NonSoft+-+%E6%96%87%E5%AD%97%E3%82%B3%E3%83%BC%E3%83%89%E5%88%A4%E5%AE%9A%EF%BC%86%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB.NET&mkt=ja&FORM=IE8SRC">文字コード判定＆変換ツール.NET</a>&nbsp;の最新版を検索(MSN)<br>
+<a href="http://www.google.co.jp/search?q=%95%B6%8E%9A%83R%81%5B%83h%94%BB%92%E8%81%95%95%CF%8A%B7%83c%81%5B%83%8B.NET&btnG=%83T%83C%83g%93%E0%8C%9F%8D%F5&sitesearch=http%3A%2F%2Fhomepage2.nifty.com%2Fnonnon%2F&domains=http%3A%2F%2Fhomepage2.nifty.com%2Fnonnon%2F&hl=ja&num=100&ie=Shift_JIS&oe=Shift_JIS">文字コード判定＆変換ツール.NET</a>&nbsp;の最新版を検索(NonSoft)<br>
+<br>
+
+</td></tr>
+</table>
+</center>
+</body>
+
+</html>

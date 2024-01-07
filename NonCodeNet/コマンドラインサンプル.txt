@@ -1,0 +1,42 @@
+REM NonCodeNet.exe [入力ファイルまたはフォルダPATH] [変換条件]
+REM [変換条件]は省略可能です。
+REM [-BAT]　　　　　　　：画面を表示しない                     (省略時：画面表示)
+REM [-OFL出力PATH]　　　：出力ファイル／フォルダPATH　　       (省略時：入力と同じ)
+REM [-ICD入力文字コード]：SJIS,JIS,EUC,UNICODE,UTF7,UTF8       (省略時：自動判定)
+REM [-OCD出力文字コード]：SJIS,JIS,EUC,UNICODE,UTF7,UTF8       (省略時：SJIS)
+REM [-CRLF]　　　　　 　：出力ファイルの改行コード(CRLF)       (省略時：CRLF)
+REM [-CR]　　　　　　 　：出力ファイルの改行コード(CR)         (省略時：CRLF)
+REM [-LF]　　　　　　 　：出力ファイルの改行コード(LF)         (省略時：CRLF)
+REM [-BOM]　　　　　　　：出力ファイルにBOMを付加する          (省略時：BOM無)
+REM [-EXT拡張子]　　　　：変換対象の拡張子をカンマ区切りで指定 (省略時：*)
+REM [-SUB]　　　　    　：サブフォルダを変換対象にする         (省略時：対象外)
+
+REM ファイル指定(SJIS→JIS変換)
+REM NonCodeNet.exe "D:\Temp\test.txt" -BAT -OFL"D:\Temp\test.txt" -ICDSJIS -OCDJIS -CRLF 
+
+REM ファイル指定(JIS→EUC変換、改行コード=CR)
+REM NonCodeNet.exe "D:\Temp\test.txt" -BAT -OFL"D:\Temp\test.txt" -ICDJIS -OCDEUC -CR 
+
+REM ファイル指定(EUC→UNICODE変換、BOM有り)
+REM NonCodeNet.exe "D:\Temp\test.txt" -BAT -OFL"D:\Temp\test.txt" -ICDEUC -OCDUNICODE -CRLF -BOM 
+
+REM ファイル指定(UNICODE→UTF7変換)
+REM NonCodeNet.exe "D:\Temp\test.txt" -BAT -OFL"D:\Temp\test.txt" -ICDUNICODE -OCDUTF7 -CRLF 
+
+REM ファイル指定(UTF7→UTF8変換、BOM無し)
+REM NonCodeNet.exe "D:\Temp\test.txt" -BAT -OFL"D:\Temp\test.txt" -ICDUTF7 -OCDUTF8 -CRLF 
+
+REM フォルダ指定(UTF8→UTF7変換、拡張子=*、サブフォルダ対象外)
+REM NonCodeNet.exe "D:\Temp" -BAT -OFL"D:\Temp" -ICDUTF8 -OCDUTF7 -CRLF -EXT* 
+
+REM フォルダ指定(UTF7→UNICODE変換、拡張子=a,b,c、サブフォルダ対象)
+REM NonCodeNet.exe "D:\Temp" -BAT -OFL"D:\Temp" -ICDUTF7 -OCDUNICODE -CRLF -EXTa,b,c -SUB 
+
+REM フォルダ指定(UNICODE→EUC変換、拡張子=*、サブフォルダ対象)
+REM NonCodeNet.exe "D:\Temp" -BAT -OFL"D:\Temp" -ICDUNICODE -OCDEUC -LF -EXT* -SUB 
+
+REM フォルダ指定(EUC→JIS変換、拡張子=*、サブフォルダ対象)
+REM NonCodeNet.exe "D:\Temp" -BAT -OFL"D:\Temp" -ICDEUC -OCDJIS -CRLF -EXT* -SUB 
+
+REM フォルダ指定(JIS→SJIS変換、拡張子=*、サブフォルダ対象)
+REM NonCodeNet.exe "D:\Temp" -BAT -OFL"D:\Temp" -ICDJIS -OCDSJIS -CRLF -EXT* -SUB 

@@ -1,0 +1,70 @@
+*北海道・東北
+#include
+#region(close,北海道)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[ラウンドワン函館店>https://www.google.co.jp/maps/place/函館市西桔梗町848-11]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|台||||||||
+|[[アミューズメントスペース遊ランド士別店>https://www.google.co.jp/maps/place/士別市大通り東8]]|12:00～翌2:00|台||||||||
+|[[遊ランド富良野店>https://www.google.co.jp/maps/place/富良野市弥生町5-50]]|13:00～翌1:00|台||||||||
+|[[遊ランド春光店>https://www.google.co.jp/maps/place/旭川市春光1条7-2-25]]|11:00～翌4:00|台||||||||
+|[[ラウンドワン旭川店>https://www.google.co.jp/maps/place/旭川市永山3条1-4-7]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|台||||||||
+|[[遊ランド旭川店>https://www.google.co.jp/maps/place/旭川市西御料5条2-64-19]]|平日12:00～翌3:00 金・土・祝前日11:00～翌5:00|台||||||||
+|[[ラウンドワン札幌すすきの店>https://www.google.co.jp/maps/place/札幌市中央区南五条西3-6-1札幌東宝公楽ビル]]|6:00～23:50|台||||||||
+|[[MAXIM HERO>https://www.google.co.jp/maps/place/札幌市北区北6条西6-1-1]]||台||||||||
+|[[ラウンドワン札幌北21条店>https://www.google.co.jp/maps/place/札幌市東区北21条東1-1-21]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|台||||||||
+|[[ラウンドワン札幌白石本通店>https://www.google.co.jp/maps/place/札幌市白石区本通-16-北1-50]]|10:00～24:00|台||||||||
+|[[アミューズメントスペース遊ランド稚内店>https://www.google.co.jp/maps/place/稚内市港5-8-15]]||台||||||||
+#endregion()
+
+#region(close,青森県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[ユーズランド下田店>https://www.google.co.jp/maps/place/上北郡おいらせ町中野平40-1イオンモール下田1F]]|10:00～21:00|HG2台CU6台|有|低背もたれワイド|車椅子トイレ有||有|20時40分カード受付終了　退店時間厳守　休憩OFF||
+|[[ラウンドワン青森店>https://www.google.co.jp/maps/place/青森市浜田3-1-1]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|通常4台||||||||
+#endregion()
+
+#region(close,岩手県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[BINGO一関店>https://www.google.co.jp/maps/place/一関市山目字中野92-1]]|10:00～24:00|台||||||||
+|[[チャットタウン北上店>https://www.google.co.jp/maps/place/北上市北鬼柳19地割71パルショッピングセンター2F]]||台|無し|||||||
+|[[G3ポロスイオンタウン北上店>https://www.google.co.jp/maps/place/北上市里分4地割20-1]]|9:00～24:00|台||||||||
+|[[サンシャイン>https://www.google.co.jp/maps/place/盛岡市大通2-7-21]]|10:00～24:00|台||||||||
+|[[タイトーFステーション盛岡南店>https://www.google.co.jp/maps/place/盛岡市津志田町2-1-77]]|10:00～24:00|台||||||||
+|[[ラウンドワン盛岡店>https://www.google.co.jp/maps/place/盛岡市盛岡駅西通2-10-35]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|台||||||||
+|[[テクノワールド>https://www.google.co.jp/maps/place/奥州市江刺愛宕梁川127-1]]||||||||||
+#endregion()
+
+#region(close,宮城県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[THE 3RDプラネットBivi仙台店>https://www.google.co.jp/maps/place/仙台市宮城野区榴岡2-1-25]]|9:00～24:00|台||||||||
+|[[ラウンドワン仙台苦竹店>https://www.google.co.jp/maps/place/仙台市宮城野区苦竹1-7-10]]|10:00～23:50 土日祝6:00～23:50|台||||||||
+|[[スーパーノバイオン仙台中山>https://www.google.co.jp/maps/place/仙台市泉区南中山1-35-57イオン仙台中山店別館3F]]||台||||||||
+|[[GAME BANK>https://www.google.co.jp/maps/place/仙台市泉区大沢2-5-4]]|9:00～24:00|台||||||||
+|[[ゲームコーナー東部>https://www.google.co.jp/maps/place/仙台市若林区六丁の目中町26-60]]|9:00～24:00|6台|有/3F||やや遠いが休憩15分設定||有/3F|||
+|[[スーパーノバ仙台一番町>https://www.google.co.jp/maps/place/仙台市青葉区一番町4-5-13サンシャインビル1F]]||台||||||||
+|[[タイトーステーション仙台クリスロード店>https://www.google.co.jp/maps/place/仙台市青葉区中央2-3-25]]|9:00～24:00|台||||||||
+|[[スーパーノバ仙台利府>https://www.google.co.jp/maps/place/宮城郡利府町加瀬字新前谷地55-1]]|10:00～24:00|3台|有/1Fカウンター||近い||有/斜め後ろ|||
+|[[ユーズランド大河原店>https://www.google.co.jp/maps/place/柴田郡大河原町字小島2-1フォルテ2F]]||||||||||
+|[[GiGO仙台>https://www.google.co.jp/maps/place/仙台市青葉区中央2-5-5三経60ビル]]||||||||||
+|[[アピナ富谷店>https://www.google.co.jp/maps/place/富谷市大清水1-33-1イオンモール109シネマズ富谷1F]]||||||||||
+
+#endregion()
+
+#region(close,秋田県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[ラウンドワン秋田店>https://www.google.co.jp/maps/place/秋田市卸町1-1-2]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|通常4台CU4台||||||||
+#endregion()
+
+#region(close,山形県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[スーパーノバ天童>https://www.google.co.jp/maps/place/天童市南町1-5-26]]|10:00～24:00|台||||||||
+#endregion()
+
+#region(close,福島県)
+|CENTER:店舗名|CENTER:営業時間&br()(土日祝)|CENTER:設置台数&br()(通常/HG/CU)|CENTER:PASELI&br()(チャージ機)|CENTER:椅子|CENTER:トイレ|CENTER:クレサ|カード&br()コネクト|CENTER:店舗ルール|CENTER:故障状況|h
+|[[嶺宝スポーツセンター>https://www.google.co.jp/maps/place/いわき市小名浜住吉字折返2-2]]|11:00～23:00|台||||||||
+|[[スーパーノバ会津>https://www.google.co.jp/maps/place/会津若松市町北町上荒久田字宮下142]]|9:00～24:00|台||||||||
+|[[ラウンドワン福島店>https://www.google.co.jp/maps/place/福島市太田町14-18]]|10:00～24:00/土9:00～24:00/日・祝8:00～24:00|台||||||||
+|[[スーパーノバ福島>https://www.google.co.jp/maps/place/福島市黒岩字中島7-2]]|10:00～24:00|台||||||||
+|[[ラウンドワン郡山店>https://www.google.co.jp/maps/place/郡山市向河原町4-55]]|10:00～24:00|通常2台 CU4台||||||||
+|[[アミューズパーク郡山店>https://www.google.co.jp/maps/place/郡山市安積町日出山2-80]]|12:00〜24:00/土10:00〜25:00(深夜1時) 日10:00〜23:00|通常2台||||||||
+|[[タイトーFステーション郡山オリエントパーク店>https://www.google.co.jp/maps/place/郡山市安積町荒井字大久保35-1]]||||||||||
+#endregion()
