@@ -77,6 +77,7 @@
 ["ORECA_PANDORA","オレカバトル パンドラのメダル"],
 ["PANIC","PanicPirates"],
 ["PCHARGER","PASELIチャージ機"],
+["PLRS","ポラリスコード"],
 ["PMSP","pop'n music"],
 ["QKS","QuizKnock STADIUM"],
 ["QMA9","クイズマジックアカデミー"],
