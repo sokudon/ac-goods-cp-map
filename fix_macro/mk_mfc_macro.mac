@@ -1,0 +1,6 @@
+﻿//キーボードマクロのファイル
+SelectAll(0);	// すべて選択
+BookmarkPattern('(.*?)\\t(.+)', 4);	// 該当行マーク
+BookmarkPattern('(.*?)\\t(.+)', 4);	// 該当行マーク
+ReplaceAll('(.*?)\\t(.+)', 'ReplaceAll(\'$1\',\'$2\',4); //', 132);	// すべて置換
+ReDraw(0);	// 再描画
