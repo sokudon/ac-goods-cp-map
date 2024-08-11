@@ -1,4 +1,6 @@
-﻿ReplaceAll('ディノスパーク札幌手稲店','GiGO BOWL 西友手稲店',4); //
+﻿ReplaceAll('アミューズメントジャムジャムひたちなか本店','GiGO ひたちなか店',4); //
+ReplaceAll('タイトーFステーション柏中央','スーパーウェーブ柏',4); //
+ReplaceAll('ディノスパーク札幌手稲店','GiGO BOWL 西友手稲店',4); //
 ReplaceAll('ディノスパーク北見','GiGO 北見店店',4); //
 ReplaceAll('ディノスパーク帯広稲田','GiGO 帯広稲田店',4); //
 ReplaceAll('ディノスパーク帯広','GiGO BOWL ドリームタウン白樺店',4); //
