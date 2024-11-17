@@ -1,0 +1,53 @@
+﻿//キーボードマクロのファイル
+BookmarkPattern('^(...?[道都府県])$', 4);	// 該当行マーク
+ReplaceAll('^(...?[道都府県])$', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^\\r\\n', 4);	// 該当行マーク
+ReplaceAll('^\\r\\n', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^(...?[道都府県]).+', 4);	// 該当行マーク
+Copy(0);	// コピー
+BookmarkPattern('楽市街道', 4);	// 該当行マーク
+ReplaceAll('楽市街道', '\\t楽市街道', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^(...?[道都府県]).+', 4);	// 該当行マーク
+BookmarkPattern('^(...?[道都府県]).+', 4);	// 該当行マーク
+BookmarkPattern('^(...?[道都府県])', 4);	// 該当行マーク
+BookmarkPattern('^(...?[道都府県])', 4);	// 該当行マーク
+ReplaceAll('^(...?[道都府県])', '\\\\t$1', 4);	// すべて置換
+ReDraw(0);	// 再描画
+Undo(0);	// 元に戻す
+BookmarkPattern('^(...?[道都府県])', 4);	// 該当行マーク
+ReplaceAll('^(...?[道都府県])', '\\t\\t$1', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^\\r\\n', 4);	// 該当行マーク
+ReplaceAll('^\\r\\n', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('\\r\\n\\t\\t', 4);	// 該当行マーク
+BookmarkPattern('\\r\\n\\t\\t', 4);	// 該当行マーク
+BookmarkPattern('\\r\\n\\t\\t', 4);	// 該当行マーク
+ReplaceAll('\\r\\n\\t\\t', '\\t\\t', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^[^\\t]', 4);	// 該当行マーク
+BookmarkPattern('^[^\\t]', 4);	// 該当行マーク
+BookmarkPattern('^([^\\t])', 4);	// 該当行マーク
+Copy(0);	// コピー
+BookmarkPattern('\t楽市街道', 4);	// 該当行マーク
+ReplaceAll('\t楽市街道', '楽市街道', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^([^\\t])', 4);	// 該当行マーク
+BookmarkPattern('^([^\\t])', 4);	// 該当行マーク
+ReplaceAll('^([^\\t])', ',$1', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('\\r\\n', 4);	// 該当行マーク
+ReplaceAll('\\r\\n', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern(',', 4);	// 該当行マーク
+ReplaceAll(',', '\\r\\n', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('\\t\\t', 4);	// 該当行マーク
+ReplaceAll('\\t\\t', ',', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^\\r\\n', 4);	// 該当行マーク
+ReplaceAll('^\\r\\n', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
