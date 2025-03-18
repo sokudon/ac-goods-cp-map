@@ -1,0 +1,30 @@
+﻿//キーボードマクロのファイル
+BookmarkPattern('</li>', 4);	// 該当行マーク
+ReplaceAll('</li>', '\\r\\n', 4);	// すべて置換
+ReDraw(0);	// 再描画
+Copy(0);	// コピー
+BookmarkPattern('<strong>.*?</strong>', 4);	// 該当行マーク
+ReplaceAll('<strong>.*?</strong>', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+Copy(0);	// コピー
+BookmarkPattern('<div class="toggle">.*?</div>', 4);	// 該当行マーク
+ReplaceAll('<div class="toggle">.*?</div>', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('<.*?>', 4);	// 該当行マーク
+ReplaceAll('<.*?>', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+Copy(0);	// コピー
+BookmarkPattern(' &copy;.+', 4);	// 該当行マーク
+ReplaceAll(' &copy;.+', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+SelectAll(0);	// すべて選択
+LTrim(0);	// 左(先頭)の空白を削除
+Merge(0);	// 連続した重複行の削除(uniq)
+BookmarkPattern('var.+', 4);	// 該当行マーク
+BookmarkPattern(';', 4);	// 該当行マーク
+Char(13);	// 文字入力
+Char(13);	// 文字入力
+Copy(0);	// コピー
+BookmarkPattern('\\(function.+', 4);	// 該当行マーク
+ReplaceAll('\\(function.+', '', 4);	// すべて置換
+ReDraw(0);	// 再描画

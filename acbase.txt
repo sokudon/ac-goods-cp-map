@@ -1,12 +1,12 @@
 
 taikonotatsujinAC	2575
-wonderlandwars	446
-gundam_ab	854
-chasejoker	171
-busoshiki	77
+wonderlandwars	443
+gundam_ab	856
+chasejoker	162
+busoshiki	73
 seganetmahjongMJ	501
-mahjongfightgirl	327
-mahjongfigntclub	927
+mahjongfightgirl	329
+mahjongfigntclub	928
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map/tree/master/%E3%81%82%E3%81%91%E3%81%92%E3%83%BC%E8%A8%AD%E7%BD%AE%E5%BA%97%E8%88%
 https://www.threads.net/@strmdn
