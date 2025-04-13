@@ -1,8 +1,6 @@
 
-taikonotatsujinAC	2569
-gundam_ab	855
-chasejoker	155
-busoshiki	69
+taikonotatsujinAC	2565
+gundam_ab	851
 mahjongfightgirl	329
 mahjongfigntclub	916
 #筐体かどう

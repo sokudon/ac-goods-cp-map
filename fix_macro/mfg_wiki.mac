@@ -1,0 +1,10 @@
+﻿//キーボードマクロのファイル
+BookmarkPattern('^".*?",".*?",', 4);	// 該当行マーク
+ReplaceAll('^".*?",".*?",', '', 4);	// すべて置換
+ReDraw(0);	// 再描画
+BookmarkPattern('^".*?",".*?",', 4);	// 該当行マーク
+BookmarkPattern('^"(.*?)","(.*?)",', 4);	// 該当行マーク
+BookmarkPattern('^"(.*?)","(.*?)",', 4);	// 該当行マーク
+BookmarkPattern('^"(.*?)","(.*?)",.+', 4);	// 該当行マーク
+ReplaceAll('^"(.*?)","(.*?)",.+', '|[[$1>https://www.google.co.jp/maps/place/$2]]||台||||||||', 4);	// すべて置換
+ReDraw(0);	// 再描画
