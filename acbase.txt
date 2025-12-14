@@ -1,8 +1,8 @@
 
-taikonotatsujinAC	2581
+taikonotatsujinAC	2589
 gundam_ab	848
-mahjongfightgirl	882
-mahjongfigntclub	390
+mahjongfightgirl	390
+mahjongfigntclub	882
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map
 https://www.threads.net/@strmdn
