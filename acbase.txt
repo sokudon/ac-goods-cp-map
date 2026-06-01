@@ -1,9 +1,9 @@
-taikonotatsujinAC	 2545
+taikonotatsujinAC	 2540
 imastours	561
-gundam_ab	 837
+gundam_ab	  840
 gaundamuvs	731
-mahjongfightgirl	 403
-mahjongfigntclub	  859
+mahjongfightgirl	 402
+mahjongfigntclub	 860
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map
 https://www.threads.net/@strmdn
@@ -18,4 +18,4 @@ https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1q_e8q60XCJzr9X3_i_RH-R8w72HLtg
 taiko
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1EFsdSNa8GtVQy8SzUVv_q2JHfQHg4IM&ll=34.61780365939705%2C134.864853&z=
 imastr
-https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1cOqkrXcnOdK8_yaHhbiwfHqTy9UNEs8&ll=35.43187323567095%2C136.0353025&z=5
+https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1cOqkrXcnOdK8_yaHhbiwfHqTy9UNEs8&ll=35.43187323567095%2C136.0353025&z=
