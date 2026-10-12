@@ -1,10 +1,10 @@
-taikonotatsujinAC	 2541
-imastours	567
-gundam_ab	  842
-gaundamuvs	727
+taikonotatsujinAC	 2539
+imastours	569
+gundam_ab	  838
+gaundamuvs	724
 mahjongfightgirl	 399
-mahjongfigntclub	844
-kimetsu	 1228
+mahjongfigntclub	837
+kimetsu	 1230
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map
 https://www.threads.net/@strmdn
