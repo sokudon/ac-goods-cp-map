@@ -1,9 +1,9 @@
-taikonotatsujinAC	 2539
-imastours	569
-gundam_ab	  838
-gaundamuvs	724
-mahjongfightgirl	 399
-mahjongfigntclub	837
+taikonotatsujinAC	 -- ※vsとtaiko エラーで取得不可　(
+imastours	565
+gundam_ab	  837
+gaundamuvs	--
+mahjongfightgirl	 400
+mahjongfigntclub	834
 kimetsu	 1230
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map
@@ -20,3 +20,5 @@ taiko
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1EFsdSNa8GtVQy8SzUVv_q2JHfQHg4IM&ll=34.61780365939705%2C134.864853&z=
 imastr
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1cOqkrXcnOdK8_yaHhbiwfHqTy9UNEs8&ll=35.43187323567095%2C136.0353025&z=
+kimetsu
+https://www.google.com/maps/d/u/0/edit?mid=1FbMw88S_n3fpnw49dlp_LAcWnHHv1Qk&usp=sharing
