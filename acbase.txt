@@ -1,24 +1,27 @@
-taikonotatsujinAC	 -- ※vsとtaiko エラーで取得不可　(
-imastours	565
-gundam_ab	  837
-gaundamuvs	--
+taikonotatsujinAC	 2533
+imastours	566
+gundam_ab	  834
+gaundamuvs	-- error forbidden
 mahjongfightgirl	 400
-mahjongfigntclub	834
-kimetsu	 1230
+mahjongfigntclub	835
+kimetsu	 1232
 #筐体かどう
 https://github.com/sokudon/ac-goods-cp-map
 https://www.threads.net/@strmdn
 
 
-ab
+バンダイナムコ:
+ab アーセナルベース稼動店舗gmap
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1vB7HVVCa5z-5Vv326C59vel6XPmi3C8&ll=35.4318943321427%2C136.3216713&z=
-vs
+vs ガンダムVSシリーズ稼動店舗gmap
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1z2wQaf5_WYOZ_CG2DByv5hCwrbJbkMo&ll=40.25190940778648%2C136.06544100000002&z=
-fightgirl
-https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1q_e8q60XCJzr9X3_i_RH-R8w72HLtgw&ll=35.4318854560359%2C135.78187595&z=
-taiko
+taiko 太鼓の達人AC 稼動店舗gmap
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1EFsdSNa8GtVQy8SzUVv_q2JHfQHg4IM&ll=34.61780365939705%2C134.864853&z=
-imastr
+imastr アイドルマスターツアーズ稼動店gmap
 https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1cOqkrXcnOdK8_yaHhbiwfHqTy9UNEs8&ll=35.43187323567095%2C136.0353025&z=
-kimetsu
+
+コナミ:
+fightgirl 麻雀ファイトガール稼動店舗gmap
+https://www.google.com/maps/d/u/0/edit?hl=ja&mid=1q_e8q60XCJzr9X3_i_RH-R8w72HLtgw&ll=35.4318854560359%2C135.78187595&z=
+kimetsu 鬼滅の刃バトルラッシュ設置店舗gmap
 https://www.google.com/maps/d/u/0/edit?mid=1FbMw88S_n3fpnw49dlp_LAcWnHHv1Qk&usp=sharing
